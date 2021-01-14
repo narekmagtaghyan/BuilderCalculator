@@ -1,0 +1,211 @@
+/* ------------------- General ------------------- */
+body {
+	font-family: 'Roboto', sans-serif;
+	color: #161616;
+	margin: 0;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.container {
+	max-width: 1170px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* ------------------- Header ------------------- */
+.header-inner {
+	padding-top: 60px;
+	padding-bottom: 60px;
+	background-color: #e3f0f7;
+}
+
+.header-inner-row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.heading-inner {
+	font-size: 22px;
+	font-weight: 700;
+	letter-spacing: 0.26px;
+	line-height: 1;
+	margin: 0;
+}
+
+.heading-inner span {
+	display: inline-block;
+	line-height: 1;
+	margin: 0;
+	margin-bottom: 10px;
+	font-size: 32px;
+	font-weight: 700;
+	letter-spacing: 0.38px;
+}
+
+.social-icons {
+	display: flex;
+}
+
+.social-icon-link {
+	text-decoration: none;
+	margin-right: 30px;
+}
+
+/* Calc */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+}
+
+/* ------------------- Calc ------------------- */
+.calc-wrapper {
+	padding-top: 50px;
+	padding-bottom: 75px;
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.heading {
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+.heading-title {
+	margin: 0;
+	margin-bottom: 15px;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 1;
+	letter-spacing: 0.48px;
+	text-align: center;
+}
+
+.calc-section {
+	padding: 40px 50px;
+	background-color: #f4f8fa;
+}
+
+.calc-section:nth-child(odd) {
+	padding: 40px 50px;
+	background-color: #fff;
+}
+
+.calc-title-light {
+	font-size: 24px;
+	font-weight: 300;
+	margin-bottom: 15px;
+}
+
+.title__inline {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.title__inline+.title__inline {
+	margin-left: 10px;
+}
+
+.input-short {
+	width: 20px;
+}
+
+.radio-wrapper {
+	display: flex;
+}
+
+.radio-wrapper .radio {
+	margin-top: 9px;
+}
+
+.radio-wrapper:not(:last-child) {
+	margin-bottom: 30px;
+}
+
+.radio-wrapper .radio {
+	margin-right: 15px;
+	margin-top: 6px;
+}
+
+.input-wrapper {
+	display: flex;
+	margin-bottom: 40px;
+}
+
+.input-wrapper:last-child {
+	margin-bottom: 0;
+}
+
+.input-short {
+	width: 62px;
+	height: 36px;
+	border-radius: 4px;
+	border: 1px solid #9a9a9a;
+	font-size: 24px;
+	font-weight: 700;
+	color: #039be5;
+	text-align: center;
+}
+
+.input-wrapper .input-short:first-child {
+	margin-right: 20px;
+}
+
+.input-wrapper .input-short:last-child {
+	margin-left: 20px;
+}
+
+/* ------------ TYPO ------------ */
+.section-title {
+	margin-bottom: 20px;
+}
+
+.section-title--vertical-center {
+	align-items: center;
+}
+
+.title-bold {
+	font-size: 24px;
+	font-weight: 700;
+}
+
+.title-lite {
+	font-size: 20px;
+	font-weight: 300;
+}
+
+.note {
+	display: block;
+	font-weight: 300;
+	font-style: italic;
+	padding-top: 10px;
+	font-size: 16px;
+	color: #969696;
+}
+
+/* ------------ FORMS ------------ */
+.checkbox-wrapper {
+	display: flex;
+	margin-bottom: 20px;
+}
+
+.checkbox-wrapper .checkbox {
+	margin-right: 15px;
+}
+
+/* ------------ PRICE ------------ */
+.hidden {
+	display: none;
+}
+
+.range-input {
+	width: 100%;
+}
