@@ -69,7 +69,6 @@ h6 {
 /* ------------------- Calc ------------------- */
 .calc-wrapper {
 	padding-top: 50px;
-	padding-bottom: 75px;
 	max-width: 800px;
 	margin: 0 auto;
 }
@@ -202,10 +201,124 @@ h6 {
 }
 
 /* ------------ PRICE ------------ */
+.calc-price {
+	margin-top: 20px;
+	padding: 40px 50px;
+	border: 10px solid #7ac5ea;
+}
+
+.calc-price-title {
+	font-size: 32px;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+
+.calc-price-value {
+	font-size: 26px;
+	font-weight: 300;
+}
+
 .hidden {
 	display: none;
 }
 
 .range-input {
 	width: 100%;
+}
+
+.rooms-wrapper {
+	user-select: none;
+	display: flex;
+	flex-direction: start;
+	align-items: center;
+}
+
+.rooms-radio-real {
+	opacity: 0;
+	appearance: none;
+	height: 0;
+	width: 0;
+	margin: 0;
+}
+
+.rooms-radio-fake {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	background-color: #e2e2e2;
+	text-align: center;
+	line-height: 50px;
+	font-size: 22px;
+	cursor: pointer;
+}
+
+.rooms-radio-real:checked+.rooms-radio-fake {
+	background-color: #fbd422;
+}
+
+/* For mobile */
+@media (max-width: 576px) {
+	.checkbox-wrapper {
+		flex-wrap: wrap;
+		row-gap: 10px;
+	}
+
+	.calc-section {
+		padding: 20px 20px;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.calc-section:nth-child(odd) {
+		padding: 20px 20px;
+		display: flex;
+	}
+
+	.rooms-radio-fake {
+		width: 40px;
+		height: 45px;
+		line-height: 45px;
+	}
+}
+
+@media (max-width: 300px) {
+	.calc-wrapper {
+		padding-top: 30px;
+	}
+
+	.heading {
+		margin-bottom: 20px;
+	}
+
+	.heading-title {
+		font-size: 28px;
+	}
+
+	.heading-desc {
+		font-size: 14px;
+	}
+
+	.title__inline {
+		font-size: 21px;
+	}
+
+	.rooms-wrapper {
+		max-width: 215px;
+		flex-wrap: wrap;
+		justify-content: center;
+		row-gap: 5px
+	}
+
+	.calc-price {
+		padding: 20px 20px;
+	}
+
+	.calc-price-title {
+		font-size: 25px;
+		margin-bottom: 5px;
+	}
+
+	.calc-price-value {
+		font-size: 19px;
+	}
 }

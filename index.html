@@ -44,7 +44,7 @@
 						<input type="radio" class="radio" name="type" value="1.3" checked />
 						<div class="title-lite">
 							Overhaul
-							<span class="note">+ 30% to the cost</span>
+							<span class="note">+30% to the cost</span>
 						</div>
 					</label>
 					<label class="radio-wrapper" data-name="mobile">
@@ -74,6 +74,43 @@
 				</div>
 				<!-- // Mobile adaptability -->
 
+				<!-- Number of rooms -->
+				<div class="calc-section">
+					<label class="checkbox-wrapper title-bold section-title">Number of rooms</label>
+					<div class="rooms-wrapper">
+						<label class="rooms-label">
+							<input class="rooms-radio-real" type="radio" name="rooms" value="0.8" />
+							<span class="rooms-radio-fake">C</span>
+						</label>
+
+						<label class="rooms-label">
+							<input class="rooms-radio-real" type="radio" name="rooms" value="1" />
+							<span class="rooms-radio-fake">1</span>
+						</label>
+
+						<label class="rooms-label">
+							<input class="rooms-radio-real" type="radio" name="rooms" value="1" checked />
+							<span class="rooms-radio-fake">2</span>
+						</label>
+
+						<label class="rooms-label">
+							<input class="rooms-radio-real" type="radio" name="rooms" value="1.05" />
+							<span class="rooms-radio-fake">3</span>
+						</label>
+
+						<label class="rooms-label">
+							<input class="rooms-radio-real" type="radio" name="rooms" value="1.05" />
+							<span class="rooms-radio-fake">4</span>
+						</label>
+
+						<label class="rooms-label">
+							<input class="rooms-radio-real" type="radio" name="rooms" value="1.05" />
+							<span class="rooms-radio-fake">5</span>
+						</label>
+					</div>
+				</div>
+				<!-- // Number of rooms -->
+
 				<!-- Additional options -->
 				<div class="calc-section">
 					<label class="checkbox-wrapper title-bold section-title">Additional options</label>
@@ -100,6 +137,16 @@
 					</label>
 				</div>
 				<!-- // Additional options -->
+
+				<!-- Repair cost -->
+				<div class="calc-price">
+					<div class="calc-price-title">Repair cost:</div>
+					<div class="calc-price-value">
+						<span id="total-price">0</span>
+						dollars
+					</div>
+				</div>
+				<!-- // Repair cost -->
 			</form>
 		</div>
 	</main>
